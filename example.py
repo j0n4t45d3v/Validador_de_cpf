@@ -1,6 +1,6 @@
-from main import cpf_valido
+import validador_cpf as vc
 
 cpf = input("Digite o cpf a ser verificado: ")
 
-resultado: bool = cpf_valido(cpf)
+resultado: bool = vc.cpf_valido(cpf)
 print(resultado)
